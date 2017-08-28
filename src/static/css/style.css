@@ -1,0 +1,47 @@
+body{
+    background-color: #fefaf4;
+    font-family: "Segoe UI";
+}
+
+#main-content{
+    min-height: 50vh;
+}
+
+#rsrc-list > div{
+    margin-bottom: 30px;
+}
+
+#rsrc-list div.card{
+    box-shadow: 5px 5px 5px #888888;
+    border-width: 2px;
+    padding: 0 1rem 1rem;
+    max-height: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#rsrc-list div.card-block a.float-right{
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1 > small{
+    /* display: block; */
+    font-size: 0.6667em;
+}
+
+.page-header h1{
+    padding-bottom: 0.25em;
+    border-bottom: 2px solid #888888;
+    margin-bottom: 0.5em;
+}
+
+#main div.page-header div.col-1 a,
+#main div.page-header div.col-1 button{
+    margin-top: 2.5rem;
+}
