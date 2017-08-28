@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>electron es6 react boilerplate</title>
-    <title>FHIRMWare - Resource List</title>
+    <title>FHIRMWare - FHIR Model Management</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./src/static/css/style.css" rel="stylesheet" type="text/css" />
     <script>
       // install babel hooks in the renderer process
       require('babel-register');
-      require('./scripts/main');
+      require('./src/static/js/main');
     </script>
+    <script defer="defer" src="./src/static/typefaces/fontawesome-5.0.0-beta1-win/js/packs/solid.js"></script>
+    <script defer="defer" src="./src/static/typefaces/fontawesome-5.0.0-beta1-win/js/fontawesome.js"></script>
   </head>
 
   <body>
-    <div id="app"></div>
   </body>
 </html>
